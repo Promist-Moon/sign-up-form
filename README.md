@@ -9,9 +9,9 @@ Project Sign Up Form under The Odin Project
 Included <b>submitted.html</b> after submission and <b>login_form.html</b> to simulate login page for users that already have accounts.
 
 <a href="https://fonts.google.com/">Fonts used:</a>
-<li>
-  <ul>Special Elite</ul>
-  <ul>Mrs Saint Delafield</ul>
-</li>
+<ul>
+  <li>Special Elite</li>
+  <li>Mrs Saint Delafield</li>
+</ul>
 
 Photo by <a href="https://unsplash.com/@laurachouette?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Laura Chouette</a> on <a href="https://unsplash.com/photos/black-and-white-typewriter-with-red-background-RjiuDd5Py8Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
