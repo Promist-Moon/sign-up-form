@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <!--stylesheets-->
+    <link href="static/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Special+Elite&display=swap" rel="stylesheet">
+<body>
+    <!--picture on left-->
+    <div class="h-100">
+        <div class="row align-items-start">
+            <div class="column1">
+                <img src="static/images/chouette.jpg" alt="Chouette" class="bgimage">
+                <div class="column-body">
+                    <img src="static/images/odin-logo.png" alt="Odin" class="column-image">
+                    <h1 class="logo-font">Lavender Reads</h1>
+                </div>
+                <div class="column-footer">
+                    Photo by <a href="https://unsplash.com/@laurachouette?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Laura Chouette</a> on <a href="https://unsplash.com/photos/black-and-white-typewriter-with-red-background-RjiuDd5Py8Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </div>
+            </div>
+            <div class="column2">
+                <div>
+                    <h1>Lavender Reads</h1>
+                    <h2><i>Stories that linger like love.</i></h2>
+                    <h3>A subscription service that sends you curated romantic novels and poetry collections.</h3>
+                    <p>This is not a real online service! This service only exists in your deepest dreams. Log in to see your reads!</p>
+                    <form action="submitted.html">
+                        <div class="form-body">
+                            <label for="email">EMAIL</label></br>
+                            <input type="email" id="email" name="email" required></br>
+                            <label for="password" minlength="8">PASSWORD</label></br>
+                            <input type="password" id="password" name="password" required pattern=".*[\d!@#$%^&*].*" title="Are you sure that's your password?"></br>
+                        </div>
+                    </br>
+                        <button type="submit" class="btn btn-dark">CREATE ACCOUNT</button>
+                    </form>
+                    <p>Don't have an account? <a href="form.html">Sign up.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
